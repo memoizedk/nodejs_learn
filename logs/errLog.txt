@@ -4,3 +4,4 @@
 20250819	15:07:56	TypeError: undefined
 20250819	15:07:57	TypeError: undefined
 20250819	15:07:57	TypeError: undefined
+20251007	13:04:43	TypeError: Cannot read properties of undefined (reading 'firstname')

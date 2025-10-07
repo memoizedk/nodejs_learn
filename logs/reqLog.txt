@@ -120,3 +120,6 @@
 20251007	12:37:42	GET	undefined	/img/img1.jpg
 20251007	12:37:46	GET	undefined	/
 20251007	12:37:46	GET	undefined	/css/style.css
+20251007	13:02:50	GET	undefined	/employees
+20251007	13:04:43	POST	undefined	/employees
+20251007	13:05:28	POST	undefined	/employees
