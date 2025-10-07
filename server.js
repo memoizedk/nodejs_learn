@@ -41,22 +41,8 @@ app.use(express.json());
 app.use(express.static(path.join(__dirname, "/public")));
 app.use('/subdir',express.static(path.join(__dirname, "/public")));
 
-// app.use('/',require('./routes/root'));
+app.use('/',require('./routes/root'));
 app.use('/subdir',require('./routes/subdir'));
-
-app.get(["/", "/index", "/index.html"], (req, res) => {
-  res.sendFile(path.join(__dirname, "views", "index.html"));
-});
-
-app.get(["/new-page", "/new-page.html"], (req, res) => {
-  res.sendFile(path.join(__dirname, "views", "new-page.html"));
-});
-
-const one = (req, res, next) => { console.log("one"); next(); };
-const two = (req, res, next) => { console.log("two"); next(); };
-const three = (req, res) => { console.log("three"); res.send("Finished!"); };
-
-app.get(["/chain", "/chain.html"], [one, two, three]);
 
 // 404
 app.use((req, res) => {
