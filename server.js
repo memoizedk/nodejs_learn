@@ -39,6 +39,10 @@ app.use(express.json());
 
 //serve static files
 app.use(express.static(path.join(__dirname, "/public")));
+app.use('/subdir',express.static(path.join(__dirname, "/public")));
+
+// app.use('/',require('./routes/root'));
+app.use('/subdir',require('./routes/subdir'));
 
 app.get(["/", "/index", "/index.html"], (req, res) => {
   res.sendFile(path.join(__dirname, "views", "index.html"));
