@@ -5,3 +5,5 @@
 20250819	15:07:57	TypeError: undefined
 20250819	15:07:57	TypeError: undefined
 20251007	13:04:43	TypeError: Cannot read properties of undefined (reading 'firstname')
+20251012	18:02:40	TypeError: res.join is not a function
+20251012	18:02:46	TypeError: res.join is not a function
