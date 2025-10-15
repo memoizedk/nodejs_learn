@@ -7,3 +7,18 @@
 20251007	13:04:43	TypeError: Cannot read properties of undefined (reading 'firstname')
 20251012	18:02:40	TypeError: res.join is not a function
 20251012	18:02:46	TypeError: res.join is not a function
+20251015	17:39:57	ReferenceError: cookies is not defined
+20251015	17:40:00	ReferenceError: cookies is not defined
+20251015	17:40:24	ReferenceError: cookies is not defined
+20251015	17:40:43	ReferenceError: cookies is not defined
+20251015	17:40:45	ReferenceError: cookies is not defined
+20251015	17:42:44	ReferenceError: user is not defined
+20251015	17:42:46	ReferenceError: user is not defined
+20251015	17:43:16	ReferenceError: user is not defined
+20251015	17:43:18	ReferenceError: user is not defined
+20251015	17:44:03	ReferenceError: user is not defined
+20251015	17:44:12	ReferenceError: user is not defined
+20251015	17:45:00	ReferenceError: cookie is not defined
+20251015	17:45:32	ReferenceError: user is not defined
+20251015	17:46:02	ReferenceError: users is not defined
+20251015	17:46:04	ReferenceError: users is not defined
