@@ -22,3 +22,5 @@
 20251015	17:45:32	ReferenceError: user is not defined
 20251015	17:46:02	ReferenceError: users is not defined
 20251015	17:46:04	ReferenceError: users is not defined
+20251027	12:45:32	TypeError: Cannot read properties of undefined (reading 'username')
+20251027	12:49:04	TypeError: Cannot read properties of undefined (reading 'username')
