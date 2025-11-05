@@ -24,3 +24,7 @@
 20251015	17:46:04	ReferenceError: users is not defined
 20251027	12:45:32	TypeError: Cannot read properties of undefined (reading 'username')
 20251027	12:49:04	TypeError: Cannot read properties of undefined (reading 'username')
+20251105	18:14:58	TypeError: Employee.find is not a function
+20251105	18:33:21	TypeError: Cannot destructure property 'user' of 'req.body' as it is undefined.
+20251105	18:33:22	TypeError: Cannot destructure property 'user' of 'req.body' as it is undefined.
+20251105	18:33:37	TypeError: Cannot destructure property 'user' of 'req.body' as it is undefined.
